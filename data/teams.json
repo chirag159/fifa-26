@@ -1,0 +1,130 @@
+[
+    {
+        "id": "ARG",
+        "name": "Argentina",
+        "code": "ARG",
+        "confederation": "CONMEBOL",
+        "rank": 1,
+        "flag": "🇦🇷"
+    },
+    {
+        "id": "FRA",
+        "name": "France",
+        "code": "FRA",
+        "confederation": "UEFA",
+        "rank": 2,
+        "flag": "🇫🇷"
+    },
+    {
+        "id": "BRA",
+        "name": "Brazil",
+        "code": "BRA",
+        "confederation": "CONMEBOL",
+        "rank": 3,
+        "flag": "🇧🇷"
+    },
+    {
+        "id": "ENG",
+        "name": "England",
+        "code": "ENG",
+        "confederation": "UEFA",
+        "rank": 4,
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    {
+        "id": "BEL",
+        "name": "Belgium",
+        "code": "BEL",
+        "confederation": "UEFA",
+        "rank": 5,
+        "flag": "🇧🇪"
+    },
+    {
+        "id": "POR",
+        "name": "Portugal",
+        "code": "POR",
+        "confederation": "UEFA",
+        "rank": 6,
+        "flag": "🇵🇹"
+    },
+    {
+        "id": "USA",
+        "name": "USA",
+        "code": "USA",
+        "confederation": "CONCACAF",
+        "rank": 11,
+        "flag": "🇺🇸"
+    },
+    {
+        "id": "MEX",
+        "name": "Mexico",
+        "code": "MEX",
+        "confederation": "CONCACAF",
+        "rank": 14,
+        "flag": "🇲🇽"
+    },
+    {
+        "id": "CAN",
+        "name": "Canada",
+        "code": "CAN",
+        "confederation": "CONCACAF",
+        "rank": 45,
+        "flag": "🇨🇦"
+    },
+    {
+        "id": "ESP",
+        "name": "Spain",
+        "code": "ESP",
+        "confederation": "UEFA",
+        "rank": 8,
+        "flag": "🇪🇸"
+    },
+    {
+        "id": "ITA",
+        "name": "Italy",
+        "code": "ITA",
+        "confederation": "UEFA",
+        "rank": 9,
+        "flag": "🇮🇹"
+    },
+    {
+        "id": "CRO",
+        "name": "Croatia",
+        "code": "CRO",
+        "confederation": "UEFA",
+        "rank": 10,
+        "flag": "🇭🇷"
+    },
+    {
+        "id": "GER",
+        "name": "Germany",
+        "code": "GER",
+        "confederation": "UEFA",
+        "rank": 16,
+        "flag": "🇩🇪"
+    },
+    {
+        "id": "JPN",
+        "name": "Japan",
+        "code": "JPN",
+        "confederation": "AFC",
+        "rank": 18,
+        "flag": "🇯🇵"
+    },
+    {
+        "id": "SEN",
+        "name": "Senegal",
+        "code": "SEN",
+        "confederation": "CAF",
+        "rank": 20,
+        "flag": "🇸🇳"
+    },
+    {
+        "id": "MAR",
+        "name": "Morocco",
+        "code": "MAR",
+        "confederation": "CAF",
+        "rank": 13,
+        "flag": "🇲🇦"
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "id": "m1",
+        "date": "2026-06-11T15:00:00-06:00",
+        "venue": "Estadio Azteca, Mexico City",
+        "round": "Group Stage",
+        "homeTeamId": "MEX",
+        "awayTeamId": "TBD",
+        "group": "Group A"
+    },
+    {
+        "id": "m2",
+        "date": "2026-06-11T12:00:00-07:00",
+        "venue": "BMO Field, Toronto",
+        "round": "Group Stage",
+        "homeTeamId": "CAN",
+        "awayTeamId": "TBD",
+        "group": "Group B"
+    },
+    {
+        "id": "m3",
+        "date": "2026-06-12T13:00:00-07:00",
+        "venue": "SoFi Stadium, Los Angeles",
+        "round": "Group Stage",
+        "homeTeamId": "USA",
+        "awayTeamId": "TBD",
+        "group": "Group D"
+    },
+    {
+        "id": "m4",
+        "date": "2026-06-15T15:00:00-04:00",
+        "venue": "MetLife Stadium, New York/NJ",
+        "round": "Group Stage",
+        "homeTeamId": "ARG",
+        "awayTeamId": "TBD",
+        "group": "Group C"
+    },
+    {
+        "id": "m5",
+        "date": "2026-06-16T17:00:00-07:00",
+        "venue": "Levi's Stadium, San Francisco Bay Area",
+        "round": "Group Stage",
+        "homeTeamId": "BRA",
+        "awayTeamId": "TBD",
+        "group": "Group E"
+    },
+    {
+        "id": "m6",
+        "date": "2026-06-18T20:00:00-06:00",
+        "venue": "Estadio Akron, Guadalajara",
+        "round": "Group Stage",
+        "homeTeamId": "MEX",
+        "awayTeamId": "ARG",
+        "group": "Group A"
+    },
+    {
+        "id": "m7",
+        "date": "2026-06-19T14:00:00-07:00",
+        "venue": "Lumen Field, Seattle",
+        "round": "Group Stage",
+        "homeTeamId": "USA",
+        "awayTeamId": "ENG",
+        "group": "Group D"
+    }
+]

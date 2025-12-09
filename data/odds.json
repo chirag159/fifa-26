@@ -1,0 +1,56 @@
+{
+    "matches": {
+        "m6": {
+            "homeWin": 2.85,
+            "draw": 3.10,
+            "awayWin": 2.55
+        },
+        "m7": {
+            "homeWin": 2.90,
+            "draw": 3.30,
+            "awayWin": 2.40
+        }
+    },
+    "outrights": [
+        {
+            "teamId": "BRA",
+            "odds": 6.00
+        },
+        {
+            "teamId": "FRA",
+            "odds": 6.50
+        },
+        {
+            "teamId": "ENG",
+            "odds": 7.00
+        },
+        {
+            "teamId": "ARG",
+            "odds": 8.00
+        },
+        {
+            "teamId": "ESP",
+            "odds": 9.00
+        },
+        {
+            "teamId": "GER",
+            "odds": 11.00
+        },
+        {
+            "teamId": "POR",
+            "odds": 13.00
+        },
+        {
+            "teamId": "USA",
+            "odds": 26.00
+        },
+        {
+            "teamId": "MEX",
+            "odds": 51.00
+        },
+        {
+            "teamId": "CAN",
+            "odds": 101.00
+        }
+    ]
+}
