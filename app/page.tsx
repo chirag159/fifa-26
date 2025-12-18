@@ -17,7 +17,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative overflow-hidden rounded-3xl h-[500px] flex items-center justify-center text-center">
         <div className="absolute inset-0 bg-gradient-to-br from-[hsl(var(--primary))] to-[hsl(var(--secondary))] opacity-20 z-0" />
-        <div className="absolute inset-0 bg-[url('/Fifa-26-landing-page.jpeg')] bg-cover bg-center opacity-40 mix-blend-overlay z-0" /> {/* Placeholder for user asset if we move it */}
+        <div className="absolute inset-0 bg-[url('/Fifa-26-landing-page.png')] bg-cover bg-center opacity-40 mix-blend-overlay z-0" /> {/* Placeholder for user asset if we move it */}
 
         <div className="relative z-10 space-y-6 p-4">
           <h1 className="text-6xl md:text-8xl font-black tracking-tighter text-white drop-shadow-2xl uppercase">

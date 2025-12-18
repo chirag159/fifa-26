@@ -37,6 +37,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                         <Link
                             key={item.href}
                             href={item.href}
+                            prefetch={false}
                             className={clsx(
                                 "flex items-center gap-4 px-4 py-3 rounded-xl transition-colors",
                                 pathname === item.href
@@ -76,6 +77,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                         <Link
                             key={item.href}
                             href={item.href}
+                            prefetch={false}
                             onClick={() => setIsMobileMenuOpen(false)}
                             className="flex items-center gap-4 text-2xl font-bold py-4 border-b border-white/10"
                         >
