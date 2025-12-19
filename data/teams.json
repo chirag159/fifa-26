@@ -6,8 +6,8 @@
         "confederation": "CONMEBOL",
         "rank": 1,
         "flag": "🇦🇷",
-        "history": "Argentina has appeared in six FIFA World Cup finals, winning in 1978, 1986, and 2022. They also played in the inaugural World Cup final in 1930.",
-        "qualification": "Argentina is participating in the 2026 FIFA World Cup qualification via CONMEBOL qualifiers.",
+        "history": "Argentina has appeared in FIFA World Cup finals six times, winning in 1978, 1986, and 2022. They played in the inaugural World Cup final in 1930.",
+        "qualification": "Argentina is participating in the 2026 FIFA World Cup qualification (CONMEBOL).",
         "keyPlayers": [
             {
                 "name": "Lionel Messi",
@@ -20,9 +20,9 @@
                 "image": "https://placehold.co/400x600?text=JA"
             },
             {
-                "name": "Lautaro Martínez",
+                "name": "Alexis Mac Allister",
                 "position": null,
-                "image": "https://placehold.co/400x600?text=LaM"
+                "image": "https://placehold.co/400x600?text=AMA"
             }
         ]
     },
@@ -33,7 +33,7 @@
         "confederation": "UEFA",
         "rank": 2,
         "flag": "🇫🇷",
-        "history": "France was one of the four European teams that participated in the first World Cup in 1930. They have won two FIFA World Cups, in 1998 and 2018.",
+        "history": "France was one of the four European teams that participated in the first World Cup in 1930 and has won two FIFA World Cups. France experienced much of its success in three different eras: in the 1980s, the late 1990s to early 2000s, and the late 2010s to early 2020s.",
         "qualification": null,
         "keyPlayers": [
             {
@@ -48,7 +48,7 @@
             },
             {
                 "name": "Olivier Giroud",
-                "position": "Forward",
+                "position": "Striker",
                 "image": "https://placehold.co/400x600?text=OG"
             }
         ]
@@ -65,17 +65,17 @@
         "keyPlayers": [
             {
                 "name": "Neymar",
-                "position": "Forward",
+                "position": null,
                 "image": "https://placehold.co/400x600?text=NJ"
             },
             {
                 "name": "Marquinhos",
-                "position": "Defender",
+                "position": null,
                 "image": "https://placehold.co/400x600?text=MQ"
             },
             {
                 "name": "Cafu",
-                "position": "Defender",
+                "position": null,
                 "image": "https://placehold.co/400x600?text=CF"
             }
         ]
@@ -87,7 +87,7 @@
         "confederation": "UEFA",
         "rank": 4,
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "history": "England won the 1966 FIFA World Cup on home soil and have qualified sixteen times. Their best performances include fourth place finishes in the 1990 and 2018 editions.",
+        "history": "England won the 1966 FIFA World Cup on home soil and have qualified sixteen times. Their best performance besides 1966 was fourth place finishes in the 1990 and 2018 editions.",
         "qualification": "Under Tuchel, England became the first European nation to secure qualification for the 2026 FIFA World Cup after winning all six of their qualification matches as of 14 October 2025.",
         "keyPlayers": [
             {
@@ -97,13 +97,8 @@
             },
             {
                 "name": "Jude Bellingham",
-                "position": "Midfielder",
+                "position": null,
                 "image": "https://placehold.co/400x600?text=JB"
-            },
-            {
-                "name": "Peter Shilton",
-                "position": "Goalkeeper",
-                "image": "https://placehold.co/400x600?text=PS"
             }
         ]
     },
@@ -114,7 +109,7 @@
         "confederation": "UEFA",
         "rank": 5,
         "flag": "🇧🇪",
-        "history": "Belgium has appeared in fourteen FIFA World Cups, achieving their best result in 2018 with a third-place finish. They experienced two golden generations, one in the 1980s/early 1990s and another in the 2010s.",
+        "history": "The Belgium national football team has participated in fourteen FIFA World Cups, achieving their best result in 2018 with a third-place finish. They experienced golden generations in the 1980s/early 1990s and 2010s, even topping the FIFA World Ranking without winning a World Cup or continental trophy.",
         "qualification": null,
         "keyPlayers": [
             {
@@ -141,7 +136,7 @@
         "confederation": "UEFA",
         "rank": 6,
         "flag": "🇵🇹",
-        "history": "Portugal's first participation in a major tournament finals was at the 1966 World Cup, finishing in third place. They would not qualify for another World Cup for 20 years.",
+        "history": "Portugal's first major tournament appearance was at the 1966 World Cup, finishing third. They reached the semi-finals of the 2006 World Cup.",
         "qualification": null,
         "keyPlayers": [
             {
@@ -163,7 +158,7 @@
         "keyPlayers": [
             {
                 "name": "Christian Pulisic",
-                "position": "Forward",
+                "position": "Winger",
                 "image": "https://placehold.co/400x600?text=CP"
             },
             {
@@ -173,7 +168,7 @@
             },
             {
                 "name": "Tyler Adams",
-                "position": "Midfielder",
+                "position": "Defensive Midfielder",
                 "image": "https://placehold.co/400x600?text=TA"
             }
         ]
@@ -185,7 +180,7 @@
         "confederation": "CONCACAF",
         "rank": 14,
         "flag": "🇲🇽",
-        "history": "Mexico has qualified for the FIFA World Cup seventeen times and has hosted the tournament twice, reaching the quarter-finals in both 1970 and 1986. They have qualified consecutively since 1994, making it one of six countries to do so.",
+        "history": "Mexico has qualified for the FIFA World Cup seventeen times and has reached the quarter-finals twice, both as hosts in 1970 and 1986. They have consecutively qualified since 1994, making them one of six countries to do so.",
         "qualification": "Mexico automatically qualified for the 2026 World Cup as co-host.",
         "keyPlayers": [
             {
@@ -212,12 +207,12 @@
         "confederation": "CONCACAF",
         "rank": 45,
         "flag": "🇨🇦",
-        "history": "Canada has both men's and women's national soccer teams representing the country in association football. Details about their World Cup legacy is not in the text.",
-        "qualification": "Canada is one of the host nations for the 2026 FIFA World Cup, alongside the United States and Mexico. Therefore, Canada automatically qualifies as a host.",
+        "history": null,
+        "qualification": "Host",
         "keyPlayers": [
             {
                 "name": "Alphonso Davies",
-                "position": "Fullback/Winger",
+                "position": "Left-Back/Winger",
                 "image": "https://placehold.co/400x600?text=AD"
             },
             {
@@ -239,8 +234,8 @@
         "confederation": "UEFA",
         "rank": 8,
         "flag": "🇪🇸",
-        "history": "Spain is one of eight national teams to have been crowned world champions, winning the 2010 edition. They have participated in 16 out of 22 FIFA World Cups, qualifying consistently since 1978, and their highest finish before 2010 was fourth place in 1950.",
-        "qualification": "Spain is in the European (UEFA) qualification for the 2026 FIFA World Cup.",
+        "history": "Spain has participated in 16 out of 22 FIFA World Cups, winning the 2010 edition. Until 2010, their highest finish was fourth place in the 1950 World Cup.",
+        "qualification": "Spain qualified for the World Cup through the European Qualifiers.",
         "keyPlayers": [
             {
                 "name": "Álvaro Morata",
@@ -248,14 +243,14 @@
                 "image": "https://placehold.co/400x600?text=AM"
             },
             {
-                "name": "Rodri",
-                "position": "Midfielder",
-                "image": "https://placehold.co/400x600?text=R"
+                "name": "Sergio Ramos",
+                "position": "Defender",
+                "image": "https://placehold.co/400x600?text=SR"
             },
             {
-                "name": "Unai Simón",
-                "position": "Goalkeeper",
-                "image": "https://placehold.co/400x600?text=US"
+                "name": "David Villa",
+                "position": "Forward",
+                "image": "https://placehold.co/400x600?text=DV"
             }
         ]
     },
@@ -266,23 +261,13 @@
         "confederation": "UEFA",
         "rank": 9,
         "flag": "🇮🇹",
-        "history": "Italy is one of the most successful national teams in international competitions, having won four World Cup titles (1934, 1938, 1982, 2006). They have also reached two more finals (1970, 1994) and finished third place in 1990 and fourth in 1978.",
+        "history": "Italy is one of the most successful national teams in international competitions, having won four World Cup titles (1934, 1938, 1982, 2006), reaching two more finals (1970, 1994), and finishing third place in 1990 and fourth in 1978. In 1938, Italy became the first team to defend its World Cup title.",
         "qualification": null,
         "keyPlayers": [
             {
                 "name": "Gianluigi Donnarumma",
-                "position": "Goalkeeper",
+                "position": "Captain",
                 "image": "https://placehold.co/400x600?text=GD"
-            },
-            {
-                "name": "Gigi Riva",
-                "position": "Top Scorer",
-                "image": "https://placehold.co/400x600?text=GR"
-            },
-            {
-                "name": "Gianluigi Buffon",
-                "position": "Most Caps",
-                "image": "https://placehold.co/400x600?text=GB"
             }
         ]
     },
@@ -321,7 +306,7 @@
         "rank": 16,
         "flag": "🇩🇪",
         "history": "Germany is one of the most successful national teams in international competitions, having won four FIFA World Cups (1954, 1974, 1990, and 2014). They have also been runners-up four times and finished third four times.",
-        "qualification": "As hosts, Germany automatically qualified for the 2024 UEFA European Championship. Germany will automatically qualify as hosts alongside Canada and Mexico.",
+        "qualification": "Host",
         "keyPlayers": [
             {
                 "name": "Joshua Kimmich",
@@ -334,9 +319,9 @@
                 "image": "https://placehold.co/400x600?text=TM"
             },
             {
-                "name": "Manuel Neuer",
-                "position": "Goalkeeper",
-                "image": "https://placehold.co/400x600?text=MN"
+                "name": "Jamal Musiala",
+                "position": "Midfielder",
+                "image": "https://placehold.co/400x600?text=JM"
             }
         ]
     },
@@ -348,7 +333,7 @@
         "rank": 18,
         "flag": "🇯🇵",
         "history": "Japan has qualified for every FIFA World Cup since 1998, advancing to the knockout stage in 2002, 2010, 2018, and 2022. They co-hosted the 2002 FIFA World Cup with South Korea.",
-        "qualification": "AFC Qualifiers",
+        "qualification": "AFC Second Round Group B Winners and AFC Third Round",
         "keyPlayers": [
             {
                 "name": "Wataru Endo",
@@ -356,14 +341,14 @@
                 "image": "https://placehold.co/400x600?text=WE"
             },
             {
-                "name": "Takashi Inui",
-                "position": "Forward",
-                "image": "https://placehold.co/400x600?text=TI"
+                "name": "Yasuhito Endō",
+                "position": "Most Caps",
+                "image": "https://placehold.co/400x600?text=YE"
             },
             {
-                "name": "Keisuke Honda",
-                "position": "Midfielder",
-                "image": "https://placehold.co/400x600?text=KH"
+                "name": "Kunishige Kamamoto",
+                "position": "Top scorer",
+                "image": "https://placehold.co/400x600?text=KK"
             }
         ]
     },
@@ -374,23 +359,23 @@
         "confederation": "CAF",
         "rank": 20,
         "flag": "🇸🇳",
-        "history": "Senegal reached the quarter-finals of the 2002 FIFA World Cup, becoming the second African team to do so. They progressed past the group stage again in 2022, marking their second time in only their third appearance.",
-        "qualification": "Senegal is in Group I for the 2026 World Cup, alongside France, Norway, and IC Path 2, as well as other IC path teams. They are participating in the CONCACAF portion of the qualification process alongside invited CONCACAF teams.",
+        "history": "Senegal reached the quarter-finals of the 2002 FIFA World Cup, being only the second African team to do so. They progressed past the group stage again in 2022.",
+        "qualification": "Senegal is competing in the 2026 FIFA World Cup as part of Group I.",
         "keyPlayers": [
-            {
-                "name": "Édouard Mendy",
-                "position": "GK",
-                "image": "https://placehold.co/400x600?text=EM"
-            },
             {
                 "name": "Kalidou Koulibaly",
                 "position": "DF",
                 "image": "https://placehold.co/400x600?text=KK"
             },
             {
-                "name": "Ismaila Sarr",
-                "position": "DF",
-                "image": "https://placehold.co/400x600?text=IS"
+                "name": "Édouard Mendy",
+                "position": "GK",
+                "image": "https://placehold.co/400x600?text=EM"
+            },
+            {
+                "name": "Sadio Mané",
+                "position": "N/A",
+                "image": "https://placehold.co/400x600?text=SM"
             }
         ]
     },
@@ -401,8 +386,8 @@
         "confederation": "CAF",
         "rank": 13,
         "flag": "🇲🇦",
-        "history": "Morocco became the first African team to top a World Cup group in 1986 and the first African and Arab team to reach a World Cup semi-final in 2022. They are regarded as one of Africa’s most successful national football teams.",
-        "qualification": "null",
+        "history": "Morocco became the first African team to top a World Cup group and advance to the knockout stage in 1986. In 2022, they became the first African and Arab team to reach a World Cup semi-final.",
+        "qualification": "The 2026 FIFA World Cup will be hosted in Canada, Mexico, and the United States. Morocco will participate through CAF qualifiers.",
         "keyPlayers": [
             {
                 "name": "Achraf Hakimi",
@@ -417,7 +402,7 @@
             {
                 "name": "Youssef En-Nesyri",
                 "position": "Forward",
-                "image": "https://placehold.co/400x600?text=YEN"
+                "image": "https://placehold.co/400x600?text=YE"
             }
         ]
     }

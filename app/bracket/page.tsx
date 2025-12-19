@@ -74,10 +74,7 @@ export default function BracketPage() {
         return (
             <div className="glass p-4 rounded-xl w-64 flex flex-col gap-2 relative group">
                 {/* Connecting Lines Logic would go here for visual tree */}
-                import Link from "next/link";
-                // ... (top of file)
-
-                // ... inside renderMatch ...
+                {/* Connecting Lines Logic would go here for visual tree */}
                 <div
                     onClick={() => match.home && handleWinnerSelect(matchId, match.home)}
                     className={clsx(
