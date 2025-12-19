@@ -22,7 +22,7 @@ export default function Home() {
         <div className="relative z-10 space-y-6 p-4">
           <h1 className="text-6xl md:text-8xl font-black tracking-tighter text-white drop-shadow-2xl uppercase">
             FEEL THE <br />
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--secondary))]">PULSE</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)]">PULSE</span>
           </h1>
           <p className="text-xl md:text-3xl font-light text-gray-200">
             48 Teams. 3 Nations. One Global Heartbeat.
