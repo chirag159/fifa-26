@@ -148,7 +148,7 @@ export default function BracketPage() {
                 </div>
 
                 {/* Quarter Finals */}
-                <div className="flex flex-col gap-24"> // increased gap
+                <div className="flex flex-col gap-24">
                     <div className="text-center text-gray-500 font-bold uppercase tracking-widest mb-4">Quarter Finals</div>
                     {[9, 10, 11, 12].map(id => (
                         <div key={id}>{renderMatch(id)}</div>
@@ -156,7 +156,7 @@ export default function BracketPage() {
                 </div>
 
                 {/* Semi Finals */}
-                <div className="flex flex-col gap-48"> // increased gap
+                <div className="flex flex-col gap-48">
                     <div className="text-center text-gray-500 font-bold uppercase tracking-widest mb-4">Semi Finals</div>
                     {[13, 14].map(id => (
                         <div key={id}>{renderMatch(id)}</div>

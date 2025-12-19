@@ -21,11 +21,11 @@ export default function Home() {
 
         <div className="relative z-10 space-y-6 p-4">
           <h1 className="text-6xl md:text-8xl font-black tracking-tighter text-white drop-shadow-2xl uppercase">
-            The World Is <br />
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--secondary))]">Coming</span>
+            FEEL THE <br />
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--secondary))]">PULSE</span>
           </h1>
           <p className="text-xl md:text-3xl font-light text-gray-200">
-            Your ultimate companion for FIFA World Cup 26™
+            48 Teams. 3 Nations. One Global Heartbeat.
           </p>
 
           <div className="inline-block glass px-8 py-4 rounded-full mt-8">
