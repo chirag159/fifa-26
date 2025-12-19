@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import matchData from "@/data/schedule.json";
 import teamData from "@/data/teams.json";
 import { Match, Team } from "@/types";
@@ -45,6 +46,8 @@ export default function SchedulePage() {
                     const homeTeam = getTeam(match.homeTeamId);
                     const awayTeam = getTeam(match.awayTeamId);
 
+                    // ... existing imports
+
                     return (
                         <div key={match.id} className="glass-card flex flex-col md:flex-row md:items-center justify-between gap-6 hover:scale-[1.01]">
                             <div className="flex flex-col md:flex-row md:items-center gap-6 flex-1">
@@ -55,17 +58,36 @@ export default function SchedulePage() {
 
                                 <div className="flex-1 grid grid-cols-3 items-center gap-4">
                                     <div className="flex items-center justify-end gap-3 text-right">
-                                        <span className="font-bold text-xl hidden md:inline">{homeTeam ? homeTeam.name : match.homeTeamId}</span>
-                                        <span className="font-bold text-xl md:hidden">{match.homeTeamId}</span>
-                                        <span className="text-2xl">{homeTeam?.flag}</span>
+                                        {homeTeam ? (
+                                            <Link href={`/teams/${homeTeam.code}`} className="contents hover:text-[hsl(var(--primary))] transition-colors">
+                                                <span className="font-bold text-xl hidden md:inline">{homeTeam.name}</span>
+                                                <span className="font-bold text-xl md:hidden">{match.homeTeamId}</span>
+                                                <span className="text-2xl">{homeTeam.flag}</span>
+                                            </Link>
+                                        ) : (
+                                            <>
+                                                <span className="font-bold text-xl hidden md:inline">{match.homeTeamId}</span>
+                                                <span className="font-bold text-xl md:hidden">{match.homeTeamId}</span>
+                                            </>
+                                        )}
                                     </div>
 
                                     <div className="text-center text-xs text-gray-500 bg-white/5 py-1 rounded">VS</div>
 
                                     <div className="flex items-center justify-start gap-3 text-left">
-                                        <span className="text-2xl">{awayTeam?.flag}</span>
-                                        <span className="font-bold text-xl hidden md:inline">{awayTeam ? awayTeam.name : match.awayTeamId}</span>
-                                        <span className="font-bold text-xl md:hidden">{match.awayTeamId}</span>
+                                        {awayTeam ? (
+                                            <Link href={`/teams/${awayTeam.code}`} className="contents hover:text-[hsl(var(--primary))] transition-colors">
+                                                <span className="text-2xl">{awayTeam.flag}</span>
+                                                <span className="font-bold text-xl hidden md:inline">{awayTeam.name}</span>
+                                                <span className="font-bold text-xl md:hidden">{match.awayTeamId}</span>
+                                            </Link>
+                                        ) : (
+                                            <>
+                                                <span className="text-2xl">🏳️</span>
+                                                <span className="font-bold text-xl hidden md:inline">{match.awayTeamId}</span>
+                                                <span className="font-bold text-xl md:hidden">{match.awayTeamId}</span>
+                                            </>
+                                        )}
                                     </div>
                                 </div>
                             </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import oddsData from "@/data/odds.json";
 import teamData from "@/data/teams.json";
 import scheduleData from "@/data/schedule.json";
@@ -30,11 +31,11 @@ export default function OddsPage() {
                     {odds.outrights.sort((a, b) => a.odds - b.odds).map((item) => {
                         const team = teams.find(t => t.id === item.teamId);
                         return (
-                            <div key={item.teamId} className="glass-card p-4 text-center hover:bg-white/10 cursor-pointer group">
+                            <Link href={`/teams/${team?.code || ""}`} key={item.teamId} className="glass-card p-4 text-center hover:bg-white/10 cursor-pointer group block">
                                 <div className="text-3xl mb-2 grayscale group-hover:grayscale-0 transition">{team?.flag}</div>
                                 <div className="font-bold mb-1">{team?.name || item.teamId}</div>
                                 <div className="text-[hsl(var(--secondary))] font-mono font-bold text-lg">+{item.odds * 100}</div> {/* American Odds Sim */}
-                            </div>
+                            </Link>
                         )
                     })}
                 </div>
