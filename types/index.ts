@@ -1,3 +1,9 @@
+export interface Player {
+    name: string;
+    position: string;
+    image?: string;
+}
+
 export interface Team {
     id: string;
     name: string;
@@ -5,6 +11,9 @@ export interface Team {
     confederation: string;
     rank: number;
     flag: string;
+    history?: string; // Markdown supported
+    qualification?: string; // Markdown supported
+    keyPlayers?: Player[];
 }
 
 export interface Match {

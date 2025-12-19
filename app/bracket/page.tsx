@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import teamData from "@/data/teams.json";
 import { Team } from "@/types";
 import { Trophy, Share2, RefreshCw } from "lucide-react";
@@ -73,6 +74,10 @@ export default function BracketPage() {
         return (
             <div className="glass p-4 rounded-xl w-64 flex flex-col gap-2 relative group">
                 {/* Connecting Lines Logic would go here for visual tree */}
+                import Link from "next/link";
+                // ... (top of file)
+
+                // ... inside renderMatch ...
                 <div
                     onClick={() => match.home && handleWinnerSelect(matchId, match.home)}
                     className={clsx(
@@ -83,7 +88,9 @@ export default function BracketPage() {
                 >
                     <div className="flex items-center gap-2">
                         <span>{homeTeam?.flag || "🏳️"}</span>
-                        <span className="font-bold">{homeTeam?.code || "TBD"}</span>
+                        <Link href={`/teams/${homeTeam?.code || ""}`} onClick={(e) => e.stopPropagation()} className="font-bold hover:underline">
+                            {homeTeam?.code || "TBD"}
+                        </Link>
                     </div>
                     {match.winner === match.home && match.home && <Trophy size={14} />}
                 </div>
@@ -100,7 +107,9 @@ export default function BracketPage() {
                 >
                     <div className="flex items-center gap-2">
                         <span>{awayTeam?.flag || "🏳️"}</span>
-                        <span className="font-bold">{awayTeam?.code || "TBD"}</span>
+                        <Link href={`/teams/${awayTeam?.code || ""}`} onClick={(e) => e.stopPropagation()} className="font-bold hover:underline">
+                            {awayTeam?.code || "TBD"}
+                        </Link>
                     </div>
                     {match.winner === match.away && match.away && <Trophy size={14} />}
                 </div>
