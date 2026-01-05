@@ -1,62 +1,22 @@
 [
     {
-        "id": "9ed5f9bb-46d8-43f6-a1e5-009b9d118c27",
-        "title": "UWCL grades for all 18 teams: Barça an A-, PSG fail",
-        "summary": "The UEFA Women's Champions League group stage is over. Here are the grades for all 18 teams as Barcelona impressed and Paris Saint-Germain struggled.",
+        "id": "30e28701-d017-4ae4-87fc-6bdd6edba45b",
+        "title": "Why the World Cup could delay some MLS-based USMNT stars' European dreams",
+        "summary": "The USMNT has several breakout stars in MLS who, in years past, would've jumped at a January move abroad. In 2026, though, they might have to sit tight.",
         "source": "ESPN",
         "imageUrl": "https://images.unsplash.com/photo-1522770179533-24471fcdba45?q=80&w=1000&auto=format&fit=crop",
-        "date": "2025-12-18",
-        "url": "https://www.espn.com/soccer/story/_/id/47323802/uwcl-grades-all-18-teams-leuven-barcelona-psg-fail-f",
+        "date": "2026-01-03",
+        "url": "https://www.espn.com/soccer/story/_/id/47455355/why-world-cup-delay-some-mls-based-usmnt-stars-european-dreams",
         "category": "General",
         "sourceType": "Official",
-        "hypeScore": 3,
-        "hypeLabel": "Routine",
+        "hypeScore": 6,
+        "hypeLabel": "Hot",
         "aiSummary": [
-            "Analysis failed.",
-            "Using fallback data.",
-            "Check API Quota."
+            "MLS-based USMNT players may delay European transfers due to the 2026 World Cup.",
+            "The World Cup's proximity influences player career decisions.",
+            "USMNT players are potentially prioritizing playing in the World Cup on home soil."
         ],
-        "relevanceScore": 5,
-        "deduplicationId": "080b08f4-bb7d-4674-b941-839db4846412"
-    },
-    {
-        "id": "25aa6359-2796-41bd-9f26-d168a863f0a2",
-        "title": "If Chelsea finally win Champions League, Bronze's brilliance will carry them",
-        "summary": "Defying reason and self-preservation, Chelsea's Lucy Bronze continues to shine in the biggest moments.",
-        "source": "ESPN",
-        "imageUrl": "https://images.unsplash.com/photo-1522770179533-24471fcdba45?q=80&w=1000&auto=format&fit=crop",
-        "date": "2025-12-18",
-        "url": "https://www.espn.com/soccer/story/_/id/47336776/bronze-chelsea-key-figure-champions-league-hopes",
-        "category": "General",
-        "sourceType": "Official",
-        "hypeScore": 3,
-        "hypeLabel": "Routine",
-        "aiSummary": [
-            "Analysis failed.",
-            "Using fallback data.",
-            "Check API Quota."
-        ],
-        "relevanceScore": 5,
-        "deduplicationId": "4c491704-1355-4a5e-879d-b689efdb7e16"
-    },
-    {
-        "id": "8ac7da9b-a275-4c5e-93cb-e7dcdaf0329d",
-        "title": "Fernandes: Portugal not better without Ronaldo",
-        "summary": "Bruno Fernandes has insisted that Cristiano Ronaldo still contributes a lot to the national team and disagrees with those that claim that Portugal play better without him.",
-        "source": "ESPN",
-        "imageUrl": "https://images.unsplash.com/photo-1522770179533-24471fcdba45?q=80&w=1000&auto=format&fit=crop",
-        "date": "2025-12-18",
-        "url": "https://www.espn.com/soccer/story/_/id/47344321/bruno-fernandes-portugal-not-better-cristiano-ronaldo",
-        "category": "General",
-        "sourceType": "Official",
-        "hypeScore": 3,
-        "hypeLabel": "Routine",
-        "aiSummary": [
-            "Analysis failed.",
-            "Using fallback data.",
-            "Check API Quota."
-        ],
-        "relevanceScore": 5,
-        "deduplicationId": "082c59c5-eddb-43c4-a2a2-fc88dda58b28"
+        "relevanceScore": 7,
+        "deduplicationId": "b3b64d13-e1ff-433b-b932-11051ced7514"
     }
 ]

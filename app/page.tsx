@@ -1,16 +1,22 @@
 import { differenceInDays } from "date-fns";
 import Link from "next/link";
-import newsData from "@/data/news.json";
+import { getNews } from "./actions";
 import { NewsArticle } from "@/types";
 import HypeMeter from "@/components/HypeMeter";
 import { ArrowUpRight } from "lucide-react";
 
-export default function Home() {
+export default async function Home() {
   const openingMatchDate = new Date("2026-06-11");
   const today = new Date();
   const daysToGo = differenceInDays(openingMatchDate, today);
 
-  const news = newsData as unknown as NewsArticle[];
+  /* 
+   * Dynamic Data Fetching:
+   * We must fetch the data dynamically because the Admin "Trigger AI Scout"
+   * updates the JSON file on disk. A static import (import data from 'news.json')
+   * would be frozen at build time.
+   */
+  const news = await getNews();
 
   return (
     <div className="space-y-8">
