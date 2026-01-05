@@ -11,17 +11,17 @@
         "keyPlayers": [
             {
                 "name": "Lionel Messi",
-                "position": null,
+                "position": "Captain",
                 "image": "https://placehold.co/400x600?text=LM"
             },
             {
                 "name": "Julián Álvarez",
-                "position": null,
+                "position": "Forward",
                 "image": "https://placehold.co/400x600?text=JA"
             },
             {
                 "name": "Alexis Mac Allister",
-                "position": null,
+                "position": "Midfielder",
                 "image": "https://placehold.co/400x600?text=AMA"
             }
         ]
@@ -42,14 +42,14 @@
                 "image": "https://placehold.co/400x600?text=KM"
             },
             {
-                "name": "Hugo Lloris",
+                "name": "Mike Maignan",
                 "position": "Goalkeeper",
-                "image": "https://placehold.co/400x600?text=HL"
+                "image": "https://placehold.co/400x600?text=MM"
             },
             {
-                "name": "Olivier Giroud",
-                "position": "Striker",
-                "image": "https://placehold.co/400x600?text=OG"
+                "name": "William Saliba",
+                "position": "Defender",
+                "image": "https://placehold.co/400x600?text=WS"
             }
         ]
     },
@@ -64,19 +64,19 @@
         "qualification": "CONMEBOL qualifiers",
         "keyPlayers": [
             {
+                "name": "Vinícius Júnior",
+                "position": "Forward",
+                "image": "https://placehold.co/400x600?text=VJ"
+            },
+            {
                 "name": "Neymar",
-                "position": null,
+                "position": "Forward",
                 "image": "https://placehold.co/400x600?text=NJ"
             },
             {
                 "name": "Marquinhos",
-                "position": null,
+                "position": "Defender",
                 "image": "https://placehold.co/400x600?text=MQ"
-            },
-            {
-                "name": "Cafu",
-                "position": null,
-                "image": "https://placehold.co/400x600?text=CF"
             }
         ]
     },
@@ -97,8 +97,13 @@
             },
             {
                 "name": "Jude Bellingham",
-                "position": null,
+                "position": "Midfielder",
                 "image": "https://placehold.co/400x600?text=JB"
+            },
+            {
+                "name": "Bukayo Saka",
+                "position": "Forward",
+                "image": "https://placehold.co/400x600?text=BS"
             }
         ]
     },
@@ -113,19 +118,19 @@
         "qualification": null,
         "keyPlayers": [
             {
-                "name": "Youri Tielemans",
+                "name": "Kevin De Bruyne",
                 "position": "Captain",
-                "image": "https://placehold.co/400x600?text=YT"
-            },
-            {
-                "name": "Jan Vertonghen",
-                "position": "Defender",
-                "image": "https://placehold.co/400x600?text=JV"
+                "image": "https://placehold.co/400x600?text=KDB"
             },
             {
                 "name": "Romelu Lukaku",
                 "position": "Forward",
                 "image": "https://placehold.co/400x600?text=RL"
+            },
+            {
+                "name": "Jeremy Doku",
+                "position": "Forward",
+                "image": "https://placehold.co/400x600?text=JD"
             }
         ]
     },
@@ -141,8 +146,18 @@
         "keyPlayers": [
             {
                 "name": "Cristiano Ronaldo",
-                "position": null,
+                "position": "Captain",
                 "image": "https://placehold.co/400x600?text=CR"
+            },
+            {
+                "name": "Bruno Fernandes",
+                "position": "Midfielder",
+                "image": "https://placehold.co/400x600?text=BF"
+            },
+            {
+                "name": "Rúben Dias",
+                "position": "Defender",
+                "image": "https://placehold.co/400x600?text=RD"
             }
         ]
     },
@@ -189,14 +204,14 @@
                 "image": "https://placehold.co/400x600?text=EA"
             },
             {
-                "name": "Andrés Guardado",
-                "position": "Midfielder",
-                "image": "https://placehold.co/400x600?text=AG"
+                "name": "Santiago Giménez",
+                "position": "Forward",
+                "image": "https://placehold.co/400x600?text=SG"
             },
             {
-                "name": "Javier Hernández",
-                "position": "Forward",
-                "image": "https://placehold.co/400x600?text=JH"
+                "name": "Luis Chávez",
+                "position": "Midfielder",
+                "image": "https://placehold.co/400x600?text=LC"
             }
         ]
     },
@@ -238,19 +253,19 @@
         "qualification": "Spain qualified for the World Cup through the European Qualifiers.",
         "keyPlayers": [
             {
-                "name": "Álvaro Morata",
-                "position": "Forward",
-                "image": "https://placehold.co/400x600?text=AM"
+                "name": "Rodri",
+                "position": "Midfielder",
+                "image": "https://placehold.co/400x600?text=R"
             },
             {
-                "name": "Sergio Ramos",
-                "position": "Defender",
-                "image": "https://placehold.co/400x600?text=SR"
+                "name": "Lamine Yamal",
+                "position": "Forward",
+                "image": "https://placehold.co/400x600?text=LY"
             },
             {
-                "name": "David Villa",
+                "name": "Nico Williams",
                 "position": "Forward",
-                "image": "https://placehold.co/400x600?text=DV"
+                "image": "https://placehold.co/400x600?text=NW"
             }
         ]
     },
@@ -268,6 +283,16 @@
                 "name": "Gianluigi Donnarumma",
                 "position": "Captain",
                 "image": "https://placehold.co/400x600?text=GD"
+            },
+            {
+                "name": "Nicolò Barella",
+                "position": "Midfielder",
+                "image": "https://placehold.co/400x600?text=NB"
+            },
+            {
+                "name": "Alessandro Bastoni",
+                "position": "Defender",
+                "image": "https://placehold.co/400x600?text=AB"
             }
         ]
     },
@@ -287,14 +312,14 @@
                 "image": "https://placehold.co/400x600?text=LM"
             },
             {
-                "name": "Ivan Perišić",
-                "position": "Forward",
-                "image": "https://placehold.co/400x600?text=IP"
+                "name": "Joško Gvardiol",
+                "position": "Defender",
+                "image": "https://placehold.co/400x600?text=JG"
             },
             {
-                "name": "Marcelo Brozović",
-                "position": "Midfielder",
-                "image": "https://placehold.co/400x600?text=MB"
+                "name": "Andrej Kramarić",
+                "position": "Forward",
+                "image": "https://placehold.co/400x600?text=AK"
             }
         ]
     },
@@ -314,14 +339,14 @@
                 "image": "https://placehold.co/400x600?text=JK"
             },
             {
-                "name": "Thomas Müller",
-                "position": "Forward",
-                "image": "https://placehold.co/400x600?text=TM"
-            },
-            {
                 "name": "Jamal Musiala",
                 "position": "Midfielder",
                 "image": "https://placehold.co/400x600?text=JM"
+            },
+            {
+                "name": "Florian Wirtz",
+                "position": "Midfielder",
+                "image": "https://placehold.co/400x600?text=FW"
             }
         ]
     },
@@ -341,14 +366,14 @@
                 "image": "https://placehold.co/400x600?text=WE"
             },
             {
-                "name": "Yasuhito Endō",
-                "position": "Most Caps",
-                "image": "https://placehold.co/400x600?text=YE"
+                "name": "Kaoru Mitoma",
+                "position": "Winger",
+                "image": "https://placehold.co/400x600?text=KM"
             },
             {
-                "name": "Kunishige Kamamoto",
-                "position": "Top scorer",
-                "image": "https://placehold.co/400x600?text=KK"
+                "name": "Takefusa Kubo",
+                "position": "Midfielder",
+                "image": "https://placehold.co/400x600?text=TK"
             }
         ]
     },
@@ -374,7 +399,7 @@
             },
             {
                 "name": "Sadio Mané",
-                "position": "N/A",
+                "position": "Forward",
                 "image": "https://placehold.co/400x600?text=SM"
             }
         ]
@@ -400,9 +425,9 @@
                 "image": "https://placehold.co/400x600?text=YB"
             },
             {
-                "name": "Youssef En-Nesyri",
+                "name": "Brahim Díaz",
                 "position": "Forward",
-                "image": "https://placehold.co/400x600?text=YE"
+                "image": "https://placehold.co/400x600?text=BD"
             }
         ]
     }

@@ -49,11 +49,23 @@ export async function processNewsFeed(articles: Partial<NewsArticle>[]): Promise
 
     console.log("AI Curator: Selected indices:", indices);
 
-    // If no indices returned (e.g. error), maybe fallback to first few?
-    // Or just return empty if strict. Let's fallback to first 3 if AI failed completely.
+    // If no indices returned (e.g. error), or empty, fallback to a robust mix.
     if (indices.length === 0 && candidates.length > 0) {
-        console.log("AI Curator: Batch filter failed or found none. Fallback to first 3.");
-        selectedIndices = [0, 1, 2].filter(i => i < candidates.length);
+        console.log("AI Curator: Batch filter failed or found none. Using heuristic fallback.");
+
+        // Revised Fallback: Pick top items from each source type to ensure variety
+        // Assuming the order is RSS, then NewsAPI. 
+        // We can just pick every 10th item or something, or specifically pick from different chunks.
+
+        // Select up to 10 items for fallback
+        const fallbackIndices: number[] = [];
+        const step = Math.max(1, Math.floor(candidates.length / 10));
+
+        for (let i = 0; i < candidates.length && fallbackIndices.length < 10; i += step) {
+            fallbackIndices.push(i);
+        }
+
+        selectedIndices = fallbackIndices;
     } else {
         selectedIndices = indices;
     }
@@ -94,8 +106,10 @@ export async function processNewsFeed(articles: Partial<NewsArticle>[]): Promise
     const enrichedArticles = results.filter((a): a is NewsArticle => a !== null);
 
     // Filter by Relevance (e.g. keep only > 4 to remove noise)
+    const finalFiltered = enrichedArticles.filter(a => (a.relevanceScore || 0) > 4);
+
+    console.log(`AI Curator: Filtering complete. Kept ${finalFiltered.length} / ${enrichedArticles.length} candidates.`);
+
     // Sort by Hype Score
-    return enrichedArticles
-        .filter(a => (a.relevanceScore || 0) > 4)
-        .sort((a, b) => b.hypeScore - a.hypeScore);
+    return finalFiltered.sort((a, b) => b.hypeScore - a.hypeScore);
 }

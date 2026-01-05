@@ -49,3 +49,5 @@ next-env.d.ts
 # antigravity
 .antigravity/
 .agent/history/
+data/cache/
+data/news-raw.json
